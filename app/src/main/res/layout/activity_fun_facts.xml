@@ -7,10 +7,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.marcoslopez7.cosascuriosas.FunFactsActivity">
+    tools:context="com.marcoslopez7.cosascuriosas.FunFactsActivity"
+    android:background="#51b46d"
+    android:focusableInTouchMode="true">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="¿Sabias qué?"
+        android:textColor="#80ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Es imposible lamerte tu codo"
+        android:id="@+id/datoCurioso"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo dato"
+        android:id="@+id/boton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#51b46d"
+        android:background="#ffffff" />
 </RelativeLayout>
